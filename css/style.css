@@ -38,8 +38,32 @@ nav ul{
 }
 
 /* main */
+main{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
 
 main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.1rem;
+    font-size: 2rem;
+    font-weight: bold;
     text-transform: capitalize;
     color: #752305;
+}
+
+/* cards */
+.cards{
+    display: flex;
+    border-radius: 4rem;
+    margin-top: 3rem;
+    width: 10rem;
+    height: 29vh;
+    background-color: #fef7e2;
+    /* background-image: url('../assets/img/honey.jpg');
+    background-position: top; */
+}
+.card{
+    display: flex;
+    align-items: flex-end;
 }
