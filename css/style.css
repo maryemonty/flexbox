@@ -55,13 +55,15 @@ main h1{
 /* cards */
 .cards{
     display: flex;
-    border-radius: 4rem;
+    border-radius: 2rem;
     margin-top: 3rem;
     width: 10rem;
     height: 29vh;
     background-color: #fef7e2;
-    /* background-image: url('../assets/img/honey.jpg');
-    background-position: top; */
+    background-image: url('../assets/img/honey.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 .card{
     display: flex;
