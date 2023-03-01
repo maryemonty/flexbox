@@ -39,25 +39,29 @@ nav ul{
 
 /* main */
 main{
-    margin-left: 2rem;
+    margin-inline: auto;
     margin-top: 2rem;
 }
 
-main h1{
+h1,h2{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.1rem;
     font-size: 2rem;
     font-weight: bold;
     text-transform: capitalize;
     color: #752305;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
-
 /* cards */
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
 .cards{
     display: flex;
     border-radius: 2rem;
-    /* margin-top: 3rem; */
     width: 13rem;
     height: 35vh;
     background-color: #fef7e2;
@@ -92,3 +96,5 @@ button{
     width: 6rem;
     cursor: pointer;
 }
+
+/* aside article */
