@@ -64,6 +64,7 @@ main h1{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    color: #752305
 }
 .card{
     display: flex;
