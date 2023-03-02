@@ -43,7 +43,7 @@ main{
     margin-top: 2rem;
 }
 
-h1,h2{
+h1,h2,h4{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -0.1rem;
     font-size: 2rem;
@@ -51,6 +51,13 @@ h1,h2{
     text-transform: capitalize;
     color: #752305;
     margin-bottom: 1.5rem;
+}
+h4{
+    font-size: medium;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 /* cards */
 .cardContainer{
@@ -97,4 +104,25 @@ button{
     cursor: pointer;
 }
 
-/* aside article */
+/* article */
+
+.articolo{
+    background-color: #fef7e2;
+    width: 70vw;
+    height: 40vh;
+    border-radius: 1rem;
+}
+
+.article{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.article img{
+    height: 36vh;
+}
+
+.article div p{
+    color:#752305
+}
